@@ -139,17 +139,7 @@ ds = load_dataset(
     cache_dir=r"PATH_TO_YOUR_DATASET_DIRECTORY"
 )
 ```
-
-Example:
-
-```python
-from datasets import load_dataset
-
-ds = load_dataset(
-    "Skylion007/openwebtext",
-    cache_dir=r"D:\HuggingFace\openwebtext"
-)
-```
+The python code to download the dataset has already been provided in "download_dataset.py" and can be readily run after imstalling the dataset library.
 
 Hugging Face stores the downloaded and processed dataset inside the selected cache directory.
 
