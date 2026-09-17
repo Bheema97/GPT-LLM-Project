@@ -421,10 +421,23 @@ Training was performed in several runs:
 
 ```text
 1000 iterations
+```
+<img width="393" height="242" alt="Screenshot 2026-09-17 235228" src="https://github.com/user-attachments/assets/6c4644f7-0550-42d3-b6aa-2cc9958ab614" />
+
+```text
 1000 iterations
+```
+<img width="410" height="245" alt="Screenshot 2026-09-18 000034" src="https://github.com/user-attachments/assets/824ca817-bbbb-4863-8292-e6f864559e00" />
+
+```text
 1000 iterations
+```
+<img width="410" height="235" alt="Screenshot 2026-09-18 000729" src="https://github.com/user-attachments/assets/1b13031c-f105-406b-a991-bdc07648a22b" />
+
+```text
 2500 iterations
 ```
+<img width="447" height="562" alt="Screenshot 2026-09-18 001928" src="https://github.com/user-attachments/assets/91f65ed1-0bb2-4cea-8182-8ff358126ba0" />
 
 Total:
 
@@ -439,6 +452,7 @@ Validation loss decreased from roughly the high `2.x` range to around:
 ```
 
 The model progressed from random character output toward recognizable English-like words and sentence fragments.
+<img width="1463" height="572" alt="Screenshot 2026-09-18 004451" src="https://github.com/user-attachments/assets/e0366434-7649-48cd-a49f-dcae9ae43c91" />
 
 ---
 
@@ -454,8 +468,16 @@ Two further runs were performed:
 
 ```text
 3000 iterations
+```
+
+<img width="416" height="663" alt="Screenshot 2026-09-18 005606" src="https://github.com/user-attachments/assets/b4a44517-5487-45e3-bb49-6abfeaea7c32" />
+
+
+```text
 3000 iterations
 ```
+<img width="425" height="662" alt="Screenshot 2026-09-18 011058" src="https://github.com/user-attachments/assets/fc8320c8-513b-462d-aaaf-511a9d4eca6d" />
+
 
 Total additional training:
 
@@ -471,6 +493,9 @@ Validation loss moved toward approximately:
 
 Generated text became more structured and contained more real English vocabulary, punctuation and sentence-like phrasing.
 
+<img width="1310" height="600" alt="Screenshot 2026-09-18 011308" src="https://github.com/user-attachments/assets/d00588b3-a06b-4e26-82e9-0a1956f369e3" />
+
+
 ---
 
 ### Stage 3 — Final Fine-Tuning
@@ -480,6 +505,9 @@ A final run of approximately:
 ```text
 5000 iterations
 ```
+<img width="607" height="746" alt="Screenshot 2026-09-18 013942" src="https://github.com/user-attachments/assets/f456d610-87a5-4ea7-aad4-5ec6ccf874c1" />
+<img width="542" height="402" alt="Screenshot 2026-09-18 013948" src="https://github.com/user-attachments/assets/cf78d666-f015-4b19-9f23-bf8994c5306d" />
+
 
 was performed at:
 
@@ -491,42 +519,9 @@ The loss began to plateau in the mid-`1.4` range.
 
 At this point the experiment was intentionally stopped because further training was giving diminishing returns and the goal of the project was educational.
 
+<img width="1450" height="572" alt="Screenshot 2026-09-18 014050" src="https://github.com/user-attachments/assets/4b8113e2-361e-4f80-a44f-9e1c9a0d4f6f" />
+
 ---
-
-## Example Progression
-
-The qualitative progression looked roughly like this:
-
-### Untrained Model
-
-```text
-Random characters
-Broken symbols
-No meaningful words
-No coherent sentence structure
-```
-
-### Early Training
-
-```text
-English-like fragments
-Common letter combinations
-Some real words
-Basic punctuation
-```
-
-### Mid Training
-
-```text
-There was a king. Game maliking trade...
-```
-
-### Later Training
-
-```text
-There was a kings of decades and employers...
-The next explained analysis...
-```
 
 The final model is still imperfect, but it clearly demonstrates the transition from random prediction toward learned language structure.
 
